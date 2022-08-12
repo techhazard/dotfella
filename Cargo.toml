@@ -1,0 +1,20 @@
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[package]
+name = "dotfella"
+description = "A no-fuss dotfiles manager"
+
+# package metadata
+authors = ["Vince van Oosten <techhazard@codeforyand.me"]
+keywords = ["dotfiles", "cli", "git", "files"]
+categories = ["command-line-utilities", "config", "filesystem"]
+license = "GPL-3.0-or-later"
+repository = "https://github.com/techhazard/dotfella"
+
+# version information
+version = "0.1.0"
+edition = "2021"
+# this can probably be lower
+# I'm just using the stable version from 2022-06-08
+rust-version = "1.62.1"
+
+[dependencies]
